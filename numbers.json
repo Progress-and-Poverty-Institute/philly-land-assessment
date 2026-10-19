@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-17",
+  "as_of": "2026-10-19",
   "source": "philly_land_tax_research scripts/philadelphia_land_assessment_one_pager.py",
   "reform": {
     "surface": "opav",
@@ -191,6 +191,12 @@
     "take_back_span_lo": 0.06603000313334288,
     "take_back_span_hi": 0.06870509700125077,
     "take_back_old": 0.13507069436177452,
+    "take_back_adds_fix": 4877,
+    "take_back_adds_opa": 4547,
+    "take_back_difference": 330,
+    "supply_fix_net_units": 330,
+    "supply_fix_land_file": "opa_vacant_land_ty2026.parquet",
+    "supply_run": "2026-10-17",
     "old_abatement_construction_share": 0.12543081655862068,
     "supply_horizon_years": 20,
     "supply_calibration_years": [
@@ -210,6 +216,8 @@
     "lvt_opa_nonwhite": -3.7699,
     "lvt_opa_white": -6.0816,
     "rate_today_pct": 1.3998,
-    "rate_held_pct": 1.3959967434
+    "rate_held_pct": 1.3959967434,
+    "fix_land_file": "opa_vacant_land_ty2026.parquet",
+    "fix_land_written": "2026-10-16"
   }
 }
